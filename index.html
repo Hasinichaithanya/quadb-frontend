@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HodlInfo Clone</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>HODLINFO</h1>
+        <div class="controls">
+          <button class="btn">INR</button>
+          <button class="btn">BTC</button>
+          <button class="btn">BUY BTC</button>
+        </div>
+        <div>
+          <button class="btn buy-btn">Connect Telegram</button>
+        </div>
+      </div>
+    </header>
+    <section class="best-price">
+      <div class="price-info">
+        <p>Best Price to Trade</p>
+      </div>
+      <div class="price-difference">
+        <div>
+          <h3>0.1 %</h3>
+          <p>5 Mins</p>
+        </div>
+        <div>
+          <h3>0.96 %</h3>
+          <p>1 Hour</p>
+        </div>
+        <div>
+          <h1 class="best-price-num">₹ 26,56,110</h1>
+          <p class="tag">Average BTC/INR net price including commission</p>
+        </div>
+        <div>
+          <h3>2.73 %</h3>
+          <p>1 Day</p>
+        </div>
+        <div>
+          <h3>7.51 %</h3>
+          <p>7 Days</p>
+        </div>
+      </div>
+    </section>
+    <section class="table-section">
+      <table id="crypto-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Platform</th>
+            <th>Last Traded Price</th>
+            <th>Buy / Sell Price</th>
+            <th>Volume</th>
+            <th>Base Unit</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
